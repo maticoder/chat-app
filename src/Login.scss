@@ -1,0 +1,38 @@
+.login {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    padding: 15px;
+}
+
+
+.nick {
+    font-size: 30px;
+    color: rgb(122, 224, 202) !important;
+}
+
+.nick:hover {
+    border: 2px solid rgb(122, 224, 202);
+}
+
+.nick:focus {
+    border: 2px solid rgb(122, 224, 202);
+    box-shadow: none;
+}
+
+.button {
+    width: 170px;
+    max-height: 50px;
+    border: 2px solid rgb(122, 224, 202);
+    font-size: 24px;
+    transition: color 500ms, background-color 500ms;
+    background-color: rgb(122, 224, 202);
+    color: white;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgb(122, 224, 202);
+}
