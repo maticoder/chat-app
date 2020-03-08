@@ -18,6 +18,7 @@ Full list of tools used to make this application:
 ```
 
 # How to run this application
+
 To run this application you gotta run this commands in your console:
 
 ```
@@ -31,20 +32,30 @@ The second one is used to serve static html, scss files and react js files on po
 # How to use this application
 
 To use this application you have to type
+
 ```
 http://localhost:3000
 ```
+
 You'll be redirected to login page, where you have to type your username, next click enter on login and now you can send messages
 
 # Database
 
 To check all existing messages you have to run
+
 ```
 mongo
 ```
+
 in your mongo db folder, next type
+
 ```
 use chat
 db.data.find().pretty();
 ```
+
 it'll show you all existing messages in the database.
+
+# How does it look like?
+
+![](https://github.com/maticoder/chat/blob/master/how.gif)
